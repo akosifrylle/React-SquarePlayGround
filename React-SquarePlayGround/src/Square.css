@@ -1,0 +1,11 @@
+.Square {
+    margin: 20px;
+    position: relative;
+}
+
+.SquareControls {
+    position: absolute;
+    top: 0;
+    width: 200px;
+    right: -200px;
+}
