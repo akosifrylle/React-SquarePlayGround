@@ -16,6 +16,7 @@ export default class Square extends React.Component {
 
         return (
                 <div style={style} className="Square">
+                    <div>Hello World</div>
                     <div className="SquareControls">
                     <input ref={(elem) => { console.log(elem.value) }} type="text" placeholder="Color..." />
                     <button>Ok</button>
