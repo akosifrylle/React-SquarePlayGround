@@ -1,7 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Square from './square';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Square from "./Square";
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
       </header> */}
       <div>
         <Square initialColor="blue" />
-        <Square initialColor="green" />
+        <Square />
         <Square initialColor="red" />
       </div>
     </div>
